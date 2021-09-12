@@ -1,8 +1,8 @@
 Package.describe({
-  name: "jagi:astronomy",
-  version: "2.7.3",
+  name: "diavrank:astronomy",
+  version: "2.8.0",
   summary: "Model layer for Meteor",
-  git: "https://github.com/jagi/meteor-astronomy.git"
+  git: "https://github.com/diavrank/meteor-astronomy.git"
 });
 
 Npm.depends({
