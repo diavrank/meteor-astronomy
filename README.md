@@ -17,14 +17,8 @@ You can learn more about Astronomy by watching video tutorials that I'm creating
 ## Installation
 
 ```sh
-$ meteor add jagi:astronomy
+$ meteor add diavrank95:astronomy
 ```
-
-## Support Astronomy development
-
-[<img src="https://www.patreon.com/images/patreon_navigation_logo_mini_orange.png" width="100" />](https://www.patreon.com/jagi)
-
-I've decided to start [Patreon](https://www.patreon.com/jagi) page. If you enjoy using Astronomy and want to support development of future versions, then any donation will be welcome :).
 
 ## Introduction
 
@@ -76,7 +70,7 @@ For clarity, here is a sample schema that allows that. May seem to be a lot of
 code but have in mind that you write it only once.
 
 ```js
-import { Class } from 'meteor/jagi:astronomy';
+import { Class } from 'meteor/diavrank95:astronomy';
 
 const Posts = new Mongo.Collection('posts');
 const Post = Class.create({

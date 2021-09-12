@@ -1,5 +1,5 @@
 Package.describe({
-  name: "diavrank:astronomy",
+  name: "diavrank95:astronomy",
   version: "2.8.0",
   summary: "Model layer for Meteor",
   git: "https://github.com/diavrank/meteor-astronomy.git"
@@ -19,7 +19,7 @@ Package.onUse(function(api) {
       "es5-shim",
       "ddp",
       "mongo",
-      "mongo-decimal",
+      "mongo-decimal@0.1.2",
       "check",
       "minimongo",
       "ejson",
